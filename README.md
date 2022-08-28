@@ -43,9 +43,17 @@
 - 다수의 Element에 일괄적으로 디자인을 적용하기 위한 언어
   - 복잡하고 많은 엘레멘트로 구성된 페이지의 색상을 일괄적으로 변경하는 경우에 유용함
   - Ex) 네이버 메인 페이지에서 대표 색상인 연두색을 모두 다른 색상으로 변경하려면, 모든 엘레멘트의 색상을 하나씩 변경해야 함
+
+## CSS 사용
+
 - CSS는 Body가 아닌 Head 영역에서 style 태그 안에 구현함 (선언)
   - K : 다른 언어에서 변수나 함수 등을 미리 선언하고 이를 활용하는 것과 비슷한 개념인듯 함
 - Element에서 class 속성에 css 클래스명을 넣어주면, 선언한 css의 디자인이 반영됨
+- 다중 클래스를 적용할 때는 class="클래스명1 클래스명2 ..." 형식으로 사용
+- head 영역에서 선언해도 사용 가능하지만 통상적으로 .css 파일 안에 클래스들을 선언함
+  - .css 파일에서는 <style> 태그로 감싸지 않아도 됨
+  - .css 파일에서 클래스 선언 시, html head에서는 <link rel="속성값(링크종류)" href="파일명.css"> 작성을 통해 연결해야 함
+    - [link rel 속성값 종류](http://www.tcpschool.com/html-tag-attrs/link-rel)
 
 ```html
 - 선언 형태 .클래스명 { 속성값 } - 선언 예시 .colorSet { color:green; } - 사용
@@ -59,3 +67,4 @@
 
 - https://namu.wiki/w/HTML
 - https://www.youtube.com/watch?v=cb7VlXqFla4&t=982s
+- http://www.tcpschool.com/html-tag-attrs/link-rel
