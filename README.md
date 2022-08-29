@@ -36,6 +36,27 @@
 - style이라는 속성을 많이 사용함
   - 엘레멘트의 디자인을 결정하는 속성
 
+<br/>
+
+## Event
+
+- 웹 페이지 내에서 클릭, 스크롤 등 사용자 동작을 의미
+- 이벤트를 인식하기 위한 코드를 Element에 작성해서 사용자 동작을 캐치할 수 있음
+- 사용자 동작을 캐치하면 그에 따라 미리 작성해둔 코드를 호출하여 실행시킬 수 있음
+  - 사용자 동작에는 클릭, 스크롤, 포커스(마우스 커서 올려두기) 등이 있음
+  - Element마다 사용할 수 있는 이벤트의 종류가 달라짐
+
+### click event 예시
+
+- 버튼을 클릭 -> 버튼이 클릭되었음을 표시하는 팝업창 출력하는 코드
+  - onclick 속성은 사용자가 버튼을 클릭했을 때 호출되는 코드
+
+```html
+<button type="button" onclick="javascript:alert('button is clicked')">
+  Button
+</button>
+```
+
 <br/><br/>
 
 # CSS
@@ -67,4 +88,4 @@
 
 - https://namu.wiki/w/HTML
 - https://www.youtube.com/watch?v=cb7VlXqFla4&t=982s
-- http://www.tcpschool.com/html-tag-attrs/link-rel
+- https://www.w3schools.com/html/default.asp

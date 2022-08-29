@@ -1,6 +1,17 @@
 .colorSet {
-    color : blue
+    color : blue;
 }
+
 .font-50 {
     font-size : 50px
+}
+
+.table-head>tr>td {
+    border: 2px solid #000000;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.table-body>tr>td {
+    border: 1px solid #000;
 }
